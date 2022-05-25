@@ -25,15 +25,6 @@ Here is an example of a playbook with the various configuration options:
       instana_agent_endpoint_port: 443
 ```
 
-## Flavors
-
-**`instana-agent-dynamic`**
-
-This blank agent comes bundled with a JDK and is configured to download all necessary sensors when it starts. Additionally, it is configured to update its set of sensors on a daily basis.
-
-**`instana-agent-static`**
-
-This "gated" agent package is supposed to not connect to the internet at all. It comes with all the recent sensors and a JDK, and is your package of choice when you run a tight firewall setup.
 
 ## Monitoring endpoint
 
@@ -49,7 +40,9 @@ See [instana official documentation](https://docs.instana.io/quick_start/agent_s
 
 ## License and Authors
 
-This playbook is being submitted and maintained under the [Apache v2.0 License](https://github.com/instana/ansible-role/blob/master/LICENSE).
+### Original
+
+This playbook has been submitted and maintained under the [Apache v2.0 License](https://github.com/instana/ansible-role/blob/master/LICENSE).
 
 * [Bastian Spanneberg](https://github.com/spanneberg)
 * [Stefan Staudenmeyer](https://github.com/doerteDev)
@@ -57,3 +50,7 @@ This playbook is being submitted and maintained under the [Apache v2.0 License](
 * [James Parker](https://github.com/jmsprkr)
 
 Copyright 2018, INSTANA Inc.
+
+### Current
+
+We forked the project to make some minor changes and keep the improvements available to the community.
