@@ -25,6 +25,12 @@ Here is an example of a playbook with the various configuration options:
       instana_agent_endpoint_port: 443
 ```
 
+Make sure to add it to your `requirements.yml`:
+
+```yaml
+- src: git+ssh://git@github.com/trustedshops-public/ansible-instana-agent.git
+```
+
 
 ## Monitoring endpoint
 
@@ -54,3 +60,5 @@ Copyright 2018, INSTANA Inc.
 ### Current
 
 We forked the project to make some minor changes and keep the improvements available to the community.
+
+
