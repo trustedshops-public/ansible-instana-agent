@@ -1,4 +1,5 @@
 # ansible-instana-agent role
+[![GitHub License](https://img.shields.io/badge/license-Apache--2-lightgrey.svg)](https://github.com/trustedshops-public/ansible-instana-agent/blob/main/LICENSE)
 
 > This repository is forked from instana/instana-agent-ansible - a blueprint to show how the Instana agent installation and configuration can be automated with 
 
